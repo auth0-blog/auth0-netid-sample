@@ -1,5 +1,7 @@
 # Auth0 netID Sample
 
+![Auth0 netID Sample](img/fezbot2000-71727-unsplash.jpg)
+
 ## Introduction
 
 ### Purpose
@@ -247,3 +249,6 @@ The user can see an overview of approved applications/services under `Meine Dien
 The user can always review and revoke his consent that grants the service access to his personal information.
 
 ![Placeholder](img/Screen_Shot_2019-03-12_at_10.52.06_AM.png)
+
+### Photo Credits
+[Photo by Fezbot2000 on Unsplash](https://unsplash.com/photos/V4CU3OBsrEk)
