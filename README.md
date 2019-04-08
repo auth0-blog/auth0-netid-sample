@@ -250,5 +250,5 @@ The user can always review and revoke his consent that grants the service access
 
 ![Placeholder](img/Screen_Shot_2019-03-12_at_10.52.06_AM.png)
 
-### Photo Credits
+## Photo Credits
 [Photo by Fezbot2000 on Unsplash](https://unsplash.com/photos/V4CU3OBsrEk)
