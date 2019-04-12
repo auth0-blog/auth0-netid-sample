@@ -42,7 +42,7 @@ Furthermore, we assume that you have already registered a service provider accou
 In the end it should look similar to this:
 ![Placeholder](img/netid-create-client-2.png)
 4. Once the client is created it will initially run in a sandboxed mode, which means it can only be used with whitelisted netID-Accounts (email addresses). In order to successfully run through the initial integration add a
-test user (mail address) to the whitelist by selecting `Testnutzer hinzufügen` (Add Test-Account), outlined [here](https://developerzone.netid.de/developerportal/testnutzer/.testnutzer-anlegen.html#indexlink_help_developerportal_testnutzer). Up to 10 accounts can be whitelisted per sandboxed client.
+test user (mail address) to the whitelist by selecting `Testnutzer hinzufügen` (Add Test-Account), outlined [here](https://developerzone.netid.de/developerportal/testnutzer/testnutzer-anlegen.html). Up to 10 accounts can be whitelisted per sandboxed client.
 5. Fetch **Client ID** and **netID Token - Sandbox** (later refered to as **client secret**) for the Auth0 configuration by expanding the client details      
 ![Placeholder](img/netid-client-details-1.png)
 
