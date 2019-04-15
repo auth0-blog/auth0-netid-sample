@@ -36,23 +36,49 @@ Furthermore, we assume that you have already registered a service provider accou
 ### Configuration on netID side
 
 1. Login into the netID Developer Portal
-2. Create a `Dienst (service)` for which you want to leverage the netID single sign-on. Select `Dienst` in the menu, click `Dienst hinzufügen` (Add service) and fill in the required details in the following screen. Detailed documentation can be found [here](https://developerzone.netid.de/developerportal/dienste/dienst-anlegen.html#indexlink_help_developerportal_dienste). In the end, it should look similar to this:
-![Placeholder](img/netid-created-service-1.png)
+
+2. Create a `Dienst (service)` for which you want to leverage the netID single sign-on. Select `Dienst` in the menu, click `Dienst hinzufügen` (Add service) and fill in the required details in the following screen. Detailed documentation can be found [here](https://developerzone.netid.de/developerportal/dienste/dienst-anlegen.html#indexlink_help_developerportal_dienste).
+
+A sample service could look like this, where the service domain (`Dienst Domain`) is the domain of your customer facing website. Also, links to data privacy information (`URL Datenrichtlinien`) and terms of usage (`URL AGB / Benutzungsbedingungen`) should be supplied:
+
+![Placeholder](img/netid-created-service-0.png)
+*(Note that for testing purposes, you can actually enter any domain and URL values in here, as they are not technically relevant in order to get the netID integration in Auth0 running.)*
+
+In the end, it should look similar to this:
+
+![Placeholder](img/netid-created-service-1-new.png)
+
 3. Create a `Client` for this service by clicking on `Client hinzufügen` (Add client) - Detailed documentation can be found [here](https://developerzone.netid.de/developerportal/clients/client-anlegen.html#indexlink_help_developerportal_clients) - it's critical to set the proper Auth0 callback url for your tenant. The Auth0 Callback URL is `https://<tenant>.auth0.com/login/callback` where `<tenant>` needs to be replaced with yours.
+
+Sample configuration:
+
+![Placeholder](img/netid-create-client-2-sample.png)
+
+*Note that you would need to adjust the values to your needs, especially the `Callback URL` needs to point to your Auth0 tenant and region.*
+
+
+
 In the end it should look similar to this:
-![Placeholder](img/netid-create-client-2.png)
+
+![Placeholder](img/netid-create-client-2-new.png)
+
 4. Once the client is created it will initially run in a sandboxed mode, which means it can only be used with whitelisted netID-Accounts (email addresses). In order to successfully run through the initial integration add a
 test user (mail address) to the whitelist by selecting `Testnutzer hinzufügen` (Add Test-Account), outlined [here](https://developerzone.netid.de/developerportal/testnutzer/testnutzer-anlegen.html). Up to 10 accounts can be whitelisted per sandboxed client.
+
 5. Fetch **Client ID** and **netID Token - Sandbox** (later refered to as **client secret**) for the Auth0 configuration by expanding the client details      
-![Placeholder](img/netid-client-details-1.png)
+![Placeholder](img/netid-client-details-1-new.png)
 
 ### Configuration on Auth0 side
 
 1. Log into the Auth0 Dashboard.
+
 2. Go to `Extensions` in the left-hand menu.
+
 3. Make sure that the `Custom Social Connections` extension is installed. If not, install it by clicking on it.
 ![Placeholder](img/custom-social-connection-1.png)
+
 4. Once installed, click on the extension to configure it.
+
 5. The upcoming screen shows an overview of pre-configured but disabled custom connections. Press the orange button labeled `+ New Connection` to create and configure a new connection.
 ![Placeholder](img/custom-social-connections-2.png)
 
