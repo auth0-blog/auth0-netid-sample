@@ -246,7 +246,7 @@ After consent is given, the browser redirects to the application, having receive
 
 ### Client App Creation in Auth0
 
-In our example, we chose a `Single Page Application (SPA)`` based on `Angular` delivered from a NodeJS web server. You can choose any other technology stack as well though.
+In our example, we chose a `Single Page Application (SPA)` based on `Angular` delivered from a Node.js web server. You can choose any other technology stack as well though.
 
 In our case, the client application is created and configured as follows in the Auth0 backend:
 
