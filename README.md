@@ -1,6 +1,6 @@
 # Auth0 netID Sample
 
-![Auth0 netID Sample](img/fezbot2000-71727-unsplash.jpg)
+![Auth0 netID Sample](img/daria-nepriakhina-198549-unsplash.jpg)
 
 ## Introduction
 
@@ -330,4 +330,4 @@ The user can always review and revoke his consent that grants the service access
 ![Placeholder](img/Screen_Shot_2019-03-12_at_10.52.06_AM.png)
 
 ## Photo Credits
-[Photo by Fezbot2000 on Unsplash](https://unsplash.com/photos/V4CU3OBsrEk)
+[Photo by Daria Nepriakhina on Unsplash](https://unsplash.com/photos/_XR5rkprHQU)
