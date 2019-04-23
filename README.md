@@ -111,9 +111,7 @@ function(accessToken, ctx, cb) {
       email_verified: profile.email_verified,
       birthdate: profile.birthdate,
       gender: profile.gender,
-      user_id: profile.sub,
-      phone_number: profile.phone_number,
-      phone_verified: profile.phone_number_verified
+      user_id: profile.sub
     });
   });
 }
