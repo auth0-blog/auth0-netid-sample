@@ -122,7 +122,7 @@ function(accessToken, ctx, cb) {
 **Authorization URL**:
 
 ```
-https://broker.netid.de/authorize?claims={"userinfo":{"birthdate":{"essential":true},"gender":{"essential":true},"email": {"essential":true},"email_verified": {"essential":true},"given_name": {"essential":true},"family_name":{"essential":true},"phone_number":{"essential":true},"phone_number_verified":{"essential":true}}}
+https://broker.netid.de/authorize?claims={"userinfo":{"birthdate":{"essential":true},"gender":{"essential":true},"email": {"essential":true},"email_verified": {"essential":true},"given_name": {"essential":true},"family_name":{"essential":true}}}
 ```
 
 In this url, you notice the explicit parameter `claims`. This parameter tells Auth0 which claims to ask for from netID. **Please note** - netID will ignore any data requested via standard `scopes` (_name, address, ..._) as well as optional/voluntary claims.
