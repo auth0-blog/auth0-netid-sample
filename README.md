@@ -131,18 +131,16 @@ Every OpenID Connect call must always request the openid scope. In addition, the
 
 netID supports the following claims
 
-* `gender` - gender of the end user
-* `given_name` - first name(s) of the end user
-* `family_name` - Last name(s) of the end user
-* `birthdate` - Date of birth of the end user
-* `email` - email address of the end user
-* `email_verified` - verification status of the email address of the end user
-* `postal_code` - the postal code of the end user's address.
-* `locality` - city of the address of the end user
-* `street_address` - street and house number of the end user's address
-* `country` - country of the end user's address
-* `phone_number` - phone number of the end user
-* `phone_number_verified` - verification status of the end user's phone number
+* `gender` - the end user's gender
+* `given_name` - the end user's first name (or names)
+* `family_name` - the end user's last name
+* `birthdate` - the end user's date of birth
+* `email` - the end user's email address
+* `email_verified` - the verification status of the end user's email address
+* `street_address` - the end user's street address (street number and street)
+* `postal_code` - the end user's postal code (ZIP)
+* `locality` - city or town in the end user's address
+* `country` - country where the end user's address is located
 
 You can adjust the claims parameter according to your needs.
 
