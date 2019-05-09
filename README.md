@@ -136,7 +136,6 @@ netID supports the following claims
 * `email` - the end user's email address
 * `email_verified` - the verification status of the end user's email address
 * `address` - the end user's address
-* `locality` - city or town in the end user's address
 * `country` - country where the end user's address is located
 
 You can adjust the claims parameter according to your needs.
