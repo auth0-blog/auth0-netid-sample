@@ -135,8 +135,7 @@ netID supports the following claims
 * `birthdate` - the end user's date of birth
 * `email` - the end user's email address
 * `email_verified` - the verification status of the end user's email address
-* `street_address` - the end user's street address (street number and street)
-* `postal_code` - the end user's postal code (ZIP)
+* `address` - the end user's address
 * `locality` - city or town in the end user's address
 * `country` - country where the end user's address is located
 
