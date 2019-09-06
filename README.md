@@ -58,7 +58,6 @@ Sample configuration:
 *Note that you would need to adjust the values to your needs, especially the `Callback URL` needs to point to your Auth0 tenant and region.*
 
 
-
 In the end it should look similar to this:
 
 ![Placeholder](img/netid-create-client-2-new.png)
